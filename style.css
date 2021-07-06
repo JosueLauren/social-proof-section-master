@@ -1,3 +1,21 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.principal {
+  width: 100vw;
+  height: 100vh;
+  background: url(images/bg-pattern-top-desktop.svg) no-repeat,  
+  url(images/bg-pattern-bottom-desktop.svg) no-repeat bottom right ;
+}
+
+
+
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
