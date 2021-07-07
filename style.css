@@ -117,11 +117,6 @@
   color: var(--Dark-Grayish-Magenta);
 }
 
-
-
-
-
-
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -131,4 +126,51 @@
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width: 900px) {
+    .principal {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+
+    .titulo {
+      text-align: center;
+      width: 90%;
+      margin-left: 0px;
+    }
+
+    .estrelas {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+
+    .estrela {
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    .perfils {
+      margin-top: 0px;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: auto;
+    }
+
+
+    .perfil {
+      width: 100%;
+    }
+
+    .attribution {
+      margin-top: 20px;
+      position: static;
+    }
   }
